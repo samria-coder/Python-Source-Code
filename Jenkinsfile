@@ -9,7 +9,7 @@ node {
 
     stage('Build Image') {
   
-       app = docker.build("samrom17/packages:latest")
+       app = docker.build("samrom17/packages:7")
     }
 
     stage('Test Image') {
